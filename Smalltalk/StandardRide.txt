@@ -1,0 +1,12 @@
+   instanceVariableNames: ''.
+
+StandardRide >> fare
+    fareAmount := distance * 2.
+    ^ fareAmount.
+
+Ride subclass: #PremiumRide
+    instanceVariableNames: ''.
+
+PremiumRide >> fare
+    fareAmount := distance * 3.5.
+    ^ fareAmount.
